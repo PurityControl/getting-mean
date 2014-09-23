@@ -1,8 +1,5 @@
+var ctrl = require('../app_server/controllers/main')
 
-/*
- * GET home page.
- */
-
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+module.exports = function(app) {
+  app.get('/', ctrl.index);
 };
