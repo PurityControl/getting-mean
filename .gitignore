@@ -1,2 +1,6 @@
 # ignore the vagrant directory
 .vagrant/
+
+# editor backup and swap files
+*~
+*.swp
