@@ -4,3 +4,6 @@
 # editor backup and swap files
 *~
 *.swp
+
+# mac index files
+.DS_Store
