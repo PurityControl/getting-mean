@@ -8,6 +8,7 @@
   "dependencies": {
     "express": "3.4.x",
     "jade": "*",
+    "readline": "0.0.x",
     "mongoose": "3.8.x"
   }
 }
