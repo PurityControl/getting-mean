@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
 var locationSchema = mongoose.Schema ({
-  name: String,
+  name: {type: String, required: true},
   address: String,
-  rating: Number,
+  rating: {type: Number, "default": 0, min: 0, max: 5},
   facilities: [String]
 });
 
